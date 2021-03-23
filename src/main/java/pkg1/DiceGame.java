@@ -31,6 +31,8 @@ public class DiceGame {
         int user;
         int Tied = 0;
 
+        System.out.println("Chi vincerà?");
+
         for(int i=0; i<NumberOfGames; i++){
             System.out.println(computer=randomize());
             System.out.println(user=randomize());
